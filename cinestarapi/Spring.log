@@ -1,0 +1,61 @@
+2023-03-12T15:42:41.981-05:00  INFO 4804 --- [main] api.cinestar.CinestarapiApplication      : Starting CinestarapiApplication using Java 19.0.2 with PID 4804 (C:\Users\Alexander\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\cinestarapi\target\classes started by Alexander in C:\Users\Alexander\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\cinestarapi)
+2023-03-12T15:42:41.985-05:00  INFO 4804 --- [main] api.cinestar.CinestarapiApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-03-12T15:42:42.719-05:00  INFO 4804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-12T15:42:42.740-05:00  INFO 4804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2023-03-12T15:42:43.336-05:00  INFO 4804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-12T15:42:43.347-05:00  INFO 4804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-12T15:42:43.348-05:00  INFO 4804 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-12T15:42:43.443-05:00  INFO 4804 --- [main] o.a.c.c.C.[.[localhost].[/cinestarapi]   : Initializing Spring embedded WebApplicationContext
+2023-03-12T15:42:43.444-05:00  INFO 4804 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1356 ms
+2023-03-12T15:42:43.565-05:00  INFO 4804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-12T15:42:43.712-05:00  INFO 4804 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32a4ecbe
+2023-03-12T15:42:43.714-05:00  INFO 4804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-12T15:42:43.756-05:00  INFO 4804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-12T15:42:43.801-05:00  INFO 4804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-12T15:42:44.117-05:00  WARN 4804 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-03-12T15:42:44.123-05:00  INFO 4804 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-12T15:42:44.393-05:00  INFO 4804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-12T15:42:44.403-05:00  INFO 4804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-12T15:42:44.499-05:00  WARN 4804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-12T15:42:44.832-05:00  INFO 4804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/cinestarapi'
+2023-03-12T15:42:44.846-05:00  INFO 4804 --- [main] api.cinestar.CinestarapiApplication      : Started CinestarapiApplication in 3.321 seconds (process running for 4.056)
+2023-03-12T15:42:59.322-05:00  INFO 4804 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/cinestarapi]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12T15:42:59.323-05:00  INFO 4804 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-12T15:42:59.326-05:00  INFO 4804 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-12T15:44:41.960-05:00  INFO 4804 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-12T15:44:41.970-05:00  INFO 4804 --- [RMI TCP Connection(9)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-12T15:44:41.972-05:00  INFO 4804 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[.[localhost].[/cinestarapi]   : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-12T15:44:41.999-05:00  INFO 4804 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-12T15:44:42.001-05:00  INFO 4804 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-12T15:44:42.008-05:00  INFO 4804 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-12T15:49:46.492-05:00  INFO 5104 --- [main] api.cinestar.CinestarapiApplication      : Starting CinestarapiApplication using Java 19.0.2 with PID 5104 (C:\Users\Alexander\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\cinestarapi\target\classes started by Alexander in C:\Users\Alexander\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\cinestarapi)
+2023-03-12T15:49:46.495-05:00  INFO 5104 --- [main] api.cinestar.CinestarapiApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-03-12T15:49:47.315-05:00  INFO 5104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-12T15:49:47.485-05:00  INFO 5104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 157 ms. Found 2 JPA repository interfaces.
+2023-03-12T15:49:48.002-05:00  INFO 5104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-12T15:49:48.012-05:00  INFO 5104 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-12T15:49:48.013-05:00  INFO 5104 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-12T15:49:48.111-05:00  INFO 5104 --- [main] o.a.c.c.C.[.[localhost].[/cinestarapi]   : Initializing Spring embedded WebApplicationContext
+2023-03-12T15:49:48.112-05:00  INFO 5104 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1543 ms
+2023-03-12T15:49:48.239-05:00  INFO 5104 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-12T15:49:48.397-05:00  INFO 5104 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b0f2d91
+2023-03-12T15:49:48.400-05:00  INFO 5104 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-12T15:49:48.440-05:00  INFO 5104 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-12T15:49:48.487-05:00  INFO 5104 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-12T15:49:48.827-05:00  WARN 5104 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-03-12T15:49:48.835-05:00  INFO 5104 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-12T15:49:49.541-05:00  INFO 5104 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-12T15:49:49.553-05:00  INFO 5104 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-12T15:49:49.838-05:00  WARN 5104 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-12T15:49:50.157-05:00  INFO 5104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/cinestarapi'
+2023-03-12T15:49:50.167-05:00  INFO 5104 --- [main] api.cinestar.CinestarapiApplication      : Started CinestarapiApplication in 4.125 seconds (process running for 4.926)
+2023-03-12T15:49:56.356-05:00  INFO 5104 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/cinestarapi]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12T15:49:56.357-05:00  INFO 5104 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-12T15:49:56.358-05:00  INFO 5104 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-12T16:29:08.285-05:00  WARN 5104 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m19s845ms99µs900ns).
+2023-03-12T16:57:19.345-05:00  INFO 5104 --- [RMI TCP Connection(40)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-12T16:57:19.362-05:00  INFO 5104 --- [RMI TCP Connection(40)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-12T16:57:19.365-05:00  INFO 5104 --- [RMI TCP Connection(40)-127.0.0.1] o.a.c.c.C.[.[localhost].[/cinestarapi]   : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-12T16:57:19.413-05:00  INFO 5104 --- [RMI TCP Connection(40)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-12T16:57:19.417-05:00  INFO 5104 --- [RMI TCP Connection(40)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-12T16:57:19.440-05:00  INFO 5104 --- [RMI TCP Connection(40)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
