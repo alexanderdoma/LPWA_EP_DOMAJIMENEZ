@@ -27,7 +27,7 @@ public class PeliculaController {
 		return (List<Pelicula>) iPelicula.findAll();
 	}
 	
-	@GetMapping("/pelicula")
+	@GetMapping("/pelicula/id")
 	public List<Pelicula> getPelicula(){
 		return null;
 	}
